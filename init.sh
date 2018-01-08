@@ -1,9 +1,5 @@
 #!/bin/bash
 
-for f in *
-do
-  [[ "$f" == ".git" ]] && continue
-  [[ "$f" == ".DS_Store" ]] && continue
-  [[ "$f" == "init.sh" ]] && continue
-  ln -s "`pwd`/$f" "$HOME/.$f"
-done
+ln -s "`pwd`/zshrc" "$HOME/.zshrc"
+ln -s "`pwd`/vimrc" "$HOME/.vimrc"
+ln -s "`pwd`/tmux.conf" "$HOME/.tmux.conf"
