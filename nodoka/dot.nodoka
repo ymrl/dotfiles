@@ -39,6 +39,7 @@ window Chrome /chrome.exe/ : EmacsEdit
 window VSCode /Code\.exe/ : EmacsEdit
 window Nodoka /nodoka64\.exe/ : EmacsEdit
 window Firefox /firefox\.exe/ : EmacsEdit
+window Flantter /ApplicationFrameHost\.exe/ : EmacsEdit
 
 
 keymap CapsAsControl : Global
