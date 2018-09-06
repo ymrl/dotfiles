@@ -6,6 +6,10 @@ keymap Global
 key *Semicolon = *Enter
 key *Enter = *Semicolon
 
+# C-[ to Esc
+key C-LeftSquareBracket = Esc
+key M0-LeftSquareBracket = Esc
+
 # LeftAlt to LeftControl
 mod alt -= LeftAlt
 mod control += LeftAlt
