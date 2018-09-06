@@ -2,10 +2,9 @@
 include "read-keyboard-define.nodoka"
 keymap Global
 
-# Semicolon to Enter
-key *IC-SemiColon = Enter
-mod alt -= RightAlt
-key *RightAlt = Semicolon
+# Swap Semicolon and Enter
+key *Semicolon = *Enter
+key *Enter = *Semicolon
 
 # LeftAlt to LeftControl
 mod alt -= LeftAlt
