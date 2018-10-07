@@ -1,0 +1,6 @@
+include "read-keyboard-define.nodoka"
+keymap Global
+
+# Swap Semicolon and Enter
+key *Semicolon = *Enter
+key *Enter = *Semicolon
