@@ -1,15 +1,23 @@
 {
-    "window.openFoldersInNewWindow": "on",
-    "workbench.editor.enablePreview": false,
-    "javascript.validate.enable": false,
-    "flow.useNPMPackagedFlow": true,
-    "search.useIgnoreFilesByDefault": true,
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "window.zoomLevel": 0,
-    "workbench.colorTheme": "Default High Contrast",
-    "workbench.iconTheme": "vs-minimal",
-    "editor.fontSize": 11,
-    "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "terminal.integrated.fontSize": 12,
-    "editor.formatOnSave": true
+  "window.openFoldersInNewWindow": "on",
+  "workbench.editor.enablePreview": false,
+  "javascript.validate.enable": false,
+  "flow.useNPMPackagedFlow": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Default High Contrast",
+  "workbench.iconTheme": "vs-minimal",
+  "editor.fontSize": 11,
+  "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 12,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "vim.enableNeovim": true,
+  "prettier.stylelintIntegration": true,
+  "breadcrumbs.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true
 }
